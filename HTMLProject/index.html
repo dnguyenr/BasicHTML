@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first website</title>
+</head>
+<body style = "background-color: black" >
+    <h1 style = "color: white">Tad Learning journey</h1>
+    <hr>
+    <h2 style = "color: white">GOTTA FIND A JOB</h2>
+ <!--this is hyperlink-->
+ <h1 style = "color: white">Hyperlink</h1>  
+
+    <a  style = "color: white" href = "https://chat.openai.com/c/ae525354-daf2-4af3-ba0b-f396aed849d6" target = _blank>
+        I use chat GPT a lot
+    </a>
+    <br>
+    <a  style = "color: white" href = "page2.html" target = _blank>
+        take to page 2 <br>
+    </a>
+<!--this is the image-->
+<h1 style = "color: white">Image</h1>
+<img src = "rainbow.jpg" height ="200" width ="400" alt="this is a picture of rainbow" title="rainbow is a symbol"  style = "color: white"></img><br>
+ <!--this is audio-->
+ <h1 style = "color: white">Audio</h1>
+    <audio controls loop>
+        <source src="Bamboo.m4r" type="audio/mpeg" title ="Suple Bamboo" >
+        Your browser does not support the audio element.
+    </audio>
+    <br>
+<!--This is video-->
+<h1 style = "color: white">Video</h1>
+<!--HTML text formatting tags-->
+<h1 style = "color: white">HTML text formatting</h1>
+<p style = "color: white"> I have to <b>learn more technologies</b> </p>
+<p style = "color: white"> I have to <i>learn Japanese</i></p>
+<p style = "color: white"> I have to <big>save money to travel</big></p>
+<p style = "color: white"> I have to <sub>find a job in tech</sub></p>
+<p style = "color: white"> I have to <sup>workout everyday</sup></p>
+<p style = "color: white"> I have to <del>hangout more</del></p>
+<p style = "color: white"> I have to <ins>align my resume with the company's values</ins></p>
+<p style = "color: white"> I have to <small>buy the flight ticket to Toronto</small></p>
+<p style = "color: white"> I have to <mark>buy the tassle and finding tickets for my graduation</mark></p>
+
+<!--list-->
+<h1 style = "color: white">List</h1>
+<h2 style = "color: white">Unordered List</h2>
+<ul>
+    <li style = "color: white">Buying flight ticket to Toronro</li>
+    <li style = "color: white">Check where should visit</li>
+    <li style = "color: white">Get some more clothes</li>
+    <li style = "color: white">Eat some more fruit
+        <ul>
+            <li style = "color: white">rasberry</li>
+            <li style = "color: white">blackberry</li>
+            <li style = "color: white">strawberry</li>
+        </ul>
+    </li style = "color: white">
+</ul>
+<h2 style = "color: white">Ordered List</h2>
+<ol>
+    <li style = "color: white">check out the place before 5pm on 27th</li>
+    <li style = "color: white">Ant's bithday is on 27th</li>
+    <li style = "color: white">Go pick up glasses on 29th</li>
+    <li style = "color: white">Amy is here on 30th </li>
+    <li style = "color: white">stop wearing contaclens on may 1</li>
+</ol>
+<h2 style = "color: white">Description List</h2>
+<dl>
+    <dt style = "color: white">Toronto</dt>
+    <dd style = "color: white">Gotta plan and buy the ticket</dd>
+    <dt style = "color: white">Graduation</dt>
+    <dd style = "color: white">Buying tassle, finding tickets, and rent a party place</dd>
+</dl>
+
+<!--create a table-->
+<h1 style = "color: white">Table</h1>
+
+<table bgcolor = "white" width = "700">
+    <tr bgcolor = "grey"> 
+        <th width = "100">Sunday</th>
+        <th width = "100">Moday</th>
+        <th width = "100">Tuesday</th>
+        <th width = "100">Wednesday</th>
+        <th width = "100">Thursday</th>
+        <th width = "100">Friday</th>
+        <th width = "100">Saturday</th>
+
+    </tr>
+    <tr bgcolor = "lightgrey" align ="center">
+        <td>off</td>
+        <td>off</td>
+        <td>off</td>
+        <td>10:15 to 15:15</td>
+        <td>10:15 to 15:15</td>
+        <td>10:15 to 15:15</td>
+        <td>10:15 to 15:15</td>
+    </tr>
+</table>
+<!--Add color to the texts-->
+<h1 style = "color: white">Color</h1>
+
+<h1 style = "color: white">iframe</h1>
+<!--iframe = embed content from another source into an HTML document
+        ex. used for ads, used in many hacking techniques -->
+    <iframe style="border: 0" src="ad.html"height = "600" width="700" alt ="This is an ad">
+
+    </iframe>
+
+<h1 style = "color: white">Button</h1>
+<a href = "page2.html" target = _self>
+    <button style = "color: white; background-color: blue; border: 2px solid greenyellow; border-radius: 5px; padding: 10px; margin: 10px;">Click me</button>
+</a>
+
+<h1 style = "color: white"> Button with JavaScript</h1>
+<button onclick = "doSomthing()">Click me</button>
+<p id = "test" style ="color: white"> Hello</p>
+<script>
+    function doSomthing(){
+        document.getElementById("test").innerHTML = "Goodbye";
+    }
+</script>
+
+<h1 style = "color:white">Form</h1>
+<form style = "color:white"> 
+    <div>
+        <lable for = "fname"> First Name:</lable>  
+        <input type = "text" id = "fname" name = "fname" placeholder = "John"><br>
+    </div>
+    
+    <br>
+    
+    <div>
+        <lable for = "lname"> Last Name:</lable>  
+        <input type = "text" id = "lname" name = "lname" placeholder = "Nguyen"><br>
+    </div>
+    </form>
+</body>
+</html>
